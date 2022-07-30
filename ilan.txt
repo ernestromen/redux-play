@@ -172,6 +172,8 @@ my stuff
 
 scope javascript call 
 difference between hidden and display none;
-
+//redux fetching data
 https://blog.devgenius.io/async-api-fetching-with-redux-toolkit-2020-8623ff9da267
 
+react to php sending data and saving
+http://www.tutorialspanel.com/react-and-php/index.htm

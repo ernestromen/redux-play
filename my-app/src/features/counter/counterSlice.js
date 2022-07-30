@@ -24,6 +24,7 @@ export const counterSlice = createSlice({
         state.loading = false
         state.hasErrors = true
       },
+      removeData:state => initialState
     
   },
 })
@@ -52,12 +53,21 @@ export function fetchData() {
 
 
 
+  export function removeFetchedData(){
+    return async dispatch => {
+      dispatch(removeData())
+
+    }
+  }
+
+
+
 
 
 // Action creators are generated for each case reducer function
 // export const { increment, decrement, incrementByAmount } = counterSlice.actions
 
-export const { getData, getDataSuccess, getDataFailure } = counterSlice.actions
+export const { getData, getDataSuccess, getDataFailure,removeData } = counterSlice.actions
 
 // A selector
 export const recipesSelector = state => state.users

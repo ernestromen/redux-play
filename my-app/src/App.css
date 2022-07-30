@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Data display CSS */
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+  border:1px solid black;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.grid-item{
+  color:white;
+  border:1px solid grey;
+  background-color:brown
+}
